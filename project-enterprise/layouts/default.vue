@@ -42,13 +42,14 @@
       class="ma-2"
       outlined
       color="white"
+      href="/mycourse"
     >
       My Couse
     </v-btn>
       <v-btn icon>
-        <v-icon>mdi-storefront-outline</v-icon>
+        <v-icon>mdi-cart-outline</v-icon>
       </v-btn>
-      <v-btn icon>
+      <v-btn icon href="/profile">
         <v-icon>mdi-account-circle-outline</v-icon>
       </v-btn>
     </v-app-bar>
@@ -97,11 +98,7 @@ export default {
           title: 'Home',
           to: '/'
         },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
-        },
+        
         {
           icon: 'mdi-chart-bubble',
           title: 'Profile',
