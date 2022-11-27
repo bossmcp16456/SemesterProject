@@ -38,9 +38,13 @@
         prepend-icon="mdi-magnify"
         single-line
       ></v-text-field>
-      <v-btn>
-        <h4>My Couse</h4>
-      </v-btn>
+      <v-btn
+      class="ma-2"
+      outlined
+      color="white"
+    >
+      My Couse
+    </v-btn>
       <v-btn icon>
         <v-icon>mdi-storefront-outline</v-icon>
       </v-btn>
