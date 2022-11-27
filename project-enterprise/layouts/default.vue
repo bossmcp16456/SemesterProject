@@ -101,6 +101,16 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Profile',
+          to: '/profile'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'My Course',
+          to: '/mycourse'
         }
       ],
       miniVariant: false,
