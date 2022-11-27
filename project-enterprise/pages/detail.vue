@@ -28,7 +28,7 @@
               <v-text-field
                 :value="computedDateFormattedDatefns"
                 clearable
-                label="Select D/M/Y"
+                label="Select D/M/Y."
                 readonly
                 v-bind="attrs"
                 v-on="on"
