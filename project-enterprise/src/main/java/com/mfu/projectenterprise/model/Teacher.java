@@ -7,7 +7,7 @@ import jakarta.persistence.Table;
 public class Teacher {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    @Column(name="USER_ID")
+    @Column(name="TEACHER_ID")
     private Long id;
 
     @Column(name="NAME")
